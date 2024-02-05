@@ -1,0 +1,26 @@
+ J n E Imagery Website
+
+Overview
+
+J n E Imagery is a photography website showcasing the work of Junior and Edwin, a photography duo based in Long Island, NY. The website aims to provide information about the photographers, their portfolio, pricing, and contact details.
+
+Features
+
+- Navigation: Simple and intuitive navigation with a top menu bar.
+- Photographer Introduction: Get to know Junior and Edwin, the talented photographers behind J n E Imagery.
+- Portfolio:Explore their diverse portfolio, including categories like Family, Couples, Maternity, and Events.
+- Pricing:Find detailed pricing information for various special occasions with contact emails.
+- Contact Form:Easily reach out to J n E Imagery by filling out a contact form for event inquiries.
+
+Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/itsjustyamo/316SBA
