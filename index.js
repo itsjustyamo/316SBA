@@ -1,13 +1,13 @@
 // Cache at least one element using selectElementById.
-let mainEl = document.selectElementbyId('main');
-
-
-// Modify the style and/or CSS classes of an element in response to user interactions using the style or classList properties.
-mainEl.style.backgroundColor = 'lightblue';
-mainEl.classList.add('highlight');
+// let mainContent = document.selectElementbyId('main');
 
 // Cache at least one element using querySelector or querySelectorAll.
-let bodyEl = document.querySelectorAll('body');
+let mainContent = document.querySelector('main');
+
+// Modify the style and/or CSS classes of an element in response to user interactions using the style or classList properties.
+mainContent.style.backgroundColor = 'lightblue';
+mainContent.classList.add('highlight');
+
 
 // Use the parent-child-sibling relationship to navigate between elements at least once (firstChild, lastChild, parentNode, nextElementSibling, etc.)
 let firstChildOfMain = mainEl.firstChild;
