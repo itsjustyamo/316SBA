@@ -1,8 +1,13 @@
 // Cache at least one element using selectElementById.
-let mainEl = document.selectElementbyId('main')
+let mainEl = document.selectElementbyId('main');
+
+
+// Modify the style and/or CSS classes of an element in response to user interactions using the style or classList properties.
+mainEl.style.backgroundColor = 'lightblue';
+mainEl.classList.add('highlight');
 
 // Cache at least one element using querySelector or querySelectorAll.
-let bodyEl = document.querySelectorAll('body')
+let bodyEl = document.querySelectorAll('body');
 
 // Use the parent-child-sibling relationship to navigate between elements at least once (firstChild, lastChild, parentNode, nextElementSibling, etc.)
 let firstChildOfMain = mainEl.firstChild;
@@ -10,9 +15,9 @@ let parentOfMain = mainEl.parentNode;
 let nextSiblingOfMain = mainEl.nextElementSibling;
 
 // Iterate over a collection of elements to accomplish some task.
-let portfolioItems = document.querySelectorAll('.portfolio-item');
+let portfolioItems = document.querySelectorAll('portfolio');
 portfolioItems.forEach(item => {
-  // Do something with each portfolio item
+
 });
 
 // Create at least one element using createElement.
@@ -22,16 +27,13 @@ let newElement = document.createElement('div');
 mainEl.appendChild(newElement);
 
 // Use the DocumentFragment interface or HTML templating with the cloneNode method to create templated content.
-let template = document.getElementById('template');
+let template = document.getElementById('portfolio');
 let clone = template.content.cloneNode(true);
 mainEl.appendChild(clone);
 
 // Modify the HTML or text content of at least one element in response to user interaction using innerHTML, innerText, or textContent.
 mainEl.innerHTML = '<p>New content</p>';
 
-// Modify the style and/or CSS classes of an element in response to user interactions using the style or classList properties.
-mainEl.style.backgroundColor = 'lightblue';
-mainEl.classList.add('highlight');
 
 // Modify at least one attribute of an element in response to user interaction.
 mainEl.setAttribute('data-custom', 'value');

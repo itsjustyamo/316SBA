@@ -1,7 +1,7 @@
 
-  .heading {
-    background-color: #ac3333;
-    padding-bottom: vh;
+  header {
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 100vh;
     display: fixed;
     justify-content: center;
     top: 100%;
@@ -37,7 +37,7 @@
     position:absolute;
     bottom: 8px;
     top: 16px;
-    text-align: center;
+    text-align: left;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 10%;
@@ -75,4 +75,30 @@
     border: 1px solid #dee2e6;
     padding: 20px;
     margin: 10px;
+    justify-content: center;
   }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}

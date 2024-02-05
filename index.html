@@ -9,15 +9,14 @@
    <script defer src="index.js"></script>
 </head>
 <body>
-<!-- 
+
     <header>
         <h1>J n E Imagery</h1>
       </header>
-       -->
+      
       <nav class="topnav">
-            <a href="registration.html" rel="" >About Us</a>
+            <a href="#about.us" rel="about us" >About Us</a>
             <a href="contact.html" rel="">Contact</a>
-            <h1 class="heading">J n E Imagery</h1>
             <a href="registration.html" rel="" >Pricing</a>
             <a href="contact.html" rel="" >Portfolio</a>
       </nav>
@@ -26,9 +25,9 @@
 
       <main>
        
-            <img src="Photos/IMG_0082.jpg" width="100%" height="50%" alt="intro"></img>
+            <img src="Photos/photographers.png" width="100%" height="100%" alt="intro"></img>
 
-<div class="text">
+<div class="text" id="about.us">
        <h2>Meet the Photographers</h2>
         <p >Hey! We're Junior and Edwin</p>
         <p>We're excited that you're thinking of shooting with us!
@@ -36,20 +35,20 @@
 
        <p>Let us capture all the moments you'll want forever as memories!"</p>
 </div>
-      
+      </main>
 <div class="container">
     <div id="Portfolio">
       <div>
         <!-----Family------>
         <h2>Family</h2>
-        <img src="Photos/IMG_0082.jpg" width="100%" height="50%" alt="intro"></img>
+        <img src="Photos/Family.png" width="100%" height="50%" alt="intro"></img>
     <p>Capture the warmth and joy of your family moments with J n E Imagery. Our skilled photographers specialize in creating timeless family portraits that beautifully portray the unique bonds within your family.</p>  
     </div>
 
       <div>
         <!-----Couples ------>
         <h2>Couples</h2>
-        <img src="Photos/IMG_0082.jpg" width="100%" height="50%" alt="intro"></img>
+        <img src="Photos/couples.png" width="100%" height="50%" alt="intro"></img>
       <p>Celebrate your love story with J n E Imagery. Whether it's an engagement shoot or a romantic session, our photographers are dedicated to capturing the essence of your connection. Let us freeze those special moments that express the love you share.</p>
       </div>
       </div>
@@ -57,13 +56,13 @@
       <div>
         <!-----Maternity----->
         <h2>Maternity</h2>
-        <img src="Photos/IMG_0082.jpg" width="100%" height="50%" alt="intro"></img>
+        <img src="Photos/Maternity.png" width="100%" height="50%" alt="intro"></img>
       <p>Document the beauty and anticipation of pregnancy with J n E Imagery. Our maternity photography focuses on capturing the glow of expectant mothers and the unique journey towards parenthood. Cherish these precious moments forever.</p>
     </div>
       <div>
         <!-----Events------>
         <h2>Events</h2>
-        <img src="Photos/IMG_0082.jpg" width="100%" height="50%" alt="intro"></img>
+        <img src="Photos/Events.png" width="100%" height="50%" alt="intro"></img>
     <p>From birthdays to corporate gatherings, J n E Imagery excels at event photography. Our goal is to capture the energy, emotions, and highlights of your special occasions. Trust us to turn your events into memorable visual stories</p>  
     </div>
     </div>
@@ -76,40 +75,34 @@
         <thead>
             <tr>
                 <th>SPECIAL OCCASIONS</th>
-                <th>EMAIL</th>
+                <th>PACKAGES</th>
 
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>BIRHDAY PARTY</td>
-                <td>bithdaypart@llama.com  </td>
+                <td>Couples/Engagements</td>
+                <td>Starting @ $350 for 1 hour </td>
             </tr>
             <tr>
-                <td>WEDDDINS</td>
-                <td>wedding@llama.com</td>
+                <td>Family</td>
+                <td>Starting @ $350 for 1 hour </td>
             </tr>
             
             <tr>
-                <td>SCHOOL CAMPS</td>
-                <td>school@llama.com</td>
+                <td>Maternity</td>
+                <td>Starting @ $350 for 1 hour </td>
             </tr>
             <tr>
-                <td>FAMILY GATHERINGS</td>
-                <td>family@llama.com</td>
+                <td>Events</td>
+                <td>Starting @ $750 for 2 hours </td>
             </tr>
         </tbody>
     </table>
   </div>
 
-  <div>
-    <!-----Socials ------>
-    <h2>Socials</h2>
-    <!-- Add your content here -->
-</div>
-
 <br>
-  <div>
+  <div class="container">
     <!----Contact Us------>
     <div id="heading">
         <h2>Contact Us</h2>
@@ -122,8 +115,8 @@
                   <input placeholder="First Name" id="firstName" name="firstName" required>
                   <br>
                   <input placeholder="Last Name" id="lastName" name="lastName" required>
-             <hr>
-                  <label for="event">Event Date</label>
+             
+            
             <br>
                   <select id="birthday" name="birthday" required>
                     <option value="" disabled selected>Month</option>
@@ -161,8 +154,15 @@
                     <option value="2004">2004</option>";
                     <option value="2005">2005</option>";
                   </select>
-                  <button  type="submit">Register</button>
+                  <!-- <button  type="submit">Register</button>
                 </form>
+
+                <form id="Share More">
+           --><br>
+                  <textarea id="More Info" name="More Info" placeholder="Share More Information About your event.." rows="4" required></textarea>
+          <br>
+                  <button type="submit">Submit</button>
+              </form>
             </div>
 </body>
 </html>
