@@ -1,60 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>J n E Imagery</title>
     <link rel="stylesheet" href="style.css">
-   <script defer src="Echaves/index.js"></script>
+   <script defer src="index.js"></script>
 </head>
 <body>
-
+<!-- 
     <header>
-<div class="alignfull flex-block flex-block--blockID--1c7e" data-block-id="blockID--1c7e" id="flex-blockid--1c7e">…</div>
-</header>
-
-  <header>
-        <nav id="top-menu"></nav>
-        <nav id="sub-menu"></nav>
-      </header>
-      
-      <main>
         <h1>J n E Imagery</h1>
-      </main>
-      
-    
-      <div>
-        <!-----Meet the Photographers------>
-        <p>Hey! We're Junior and EdwinWe're excited that you're thinking of shooting with us!JnE_Imagery is a Photography Duo based in Long Island, NY that boasts the advantage of having two photographers, two perspectives, two styles and the singular goal of giving you the best experience possible.</p>
+      </header>
+       -->
+      <nav class="topnav">
+            <a href="registration.html" rel="" >About Us</a>
+            <a href="contact.html" rel="">Contact</a>
+            <h1 class="heading">J n E Imagery</h1>
+            <a href="registration.html" rel="" >Pricing</a>
+            <a href="contact.html" rel="" >Portfolio</a>
+      </nav>
+
+
+
+      <main>
+       
+            <img src="Photos/IMG_0082.jpg" width="100%" height="50%" alt="intro"></img>
+
+<div class="text">
+       <h2>Meet the Photographers</h2>
+        <p >Hey! We're Junior and Edwin</p>
+        <p>We're excited that you're thinking of shooting with us!
+        <p>JnE_Imagery is a Photography Duo based in Long Island, NY that boasts the advantage of having two photographers, two perspectives, two styles and the singular goal of giving you the best experience possible.</p>
 
        <p>Let us capture all the moments you'll want forever as memories!"</p>
-      </div>
-
+</div>
+      
+<div class="container">
     <div id="Portfolio">
       <div>
         <!-----Family------>
+        <h2>Family</h2>
+        <img src="Photos/IMG_0082.jpg" width="100%" height="50%" alt="intro"></img>
       </div>
 
       <div>
         <!-----Couples ------>
+        <h2>Couples</h2>
+        <img src="Photos/IMG_0082.jpg" width="100%" height="50%" alt="intro"></img>
+      
       </div>
 
       <div>
         <!-----Maternity----->
+        <h2>Maternity</h2>
+        <img src="Photos/IMG_0082.jpg" width="100%" height="50%" alt="intro"></img>
       </div>
-
       <div>
         <!-----Events------>
-      </div>
-
-      <div>
-        <!-----Pricing------>
-      </div>
-
-      <div>
-        <!-----Socials ------>
+        <h2>Events</h2>
+        <img src="Photos/IMG_0082.jpg" width="100%" height="50%" alt="intro"></img>
       </div>
     </div>
+  </div>
 
+  <div>
+    <!-----Pricing------>
+    <h2>Pricing</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>SPECIAL OCCASIONS</th>
+                <th>EMAIL</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>BIRHDAY PARTY</td>
+                <td>bithdaypart@llama.com  </td>
+            </tr>
+            <tr>
+                <td>WEDDDINS</td>
+                <td>wedding@llama.com</td>
+            </tr>
+            
+            <tr>
+                <td>SCHOOL CAMPS</td>
+                <td>school@llama.com</td>
+            </tr>
+            <tr>
+                <td>FAMILY GATHERINGS</td>
+                <td>family@llama.com</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+
+  <div>
+    <!-----Socials ------>
+    <h2>Socials</h2>
+    <!-- Add your content here -->
+</div>
+
+<br>
+  <div>
+    <!----Contact Us------>
+    <div id="heading">
+        <h2>Contact Us</h2>
+        </div>
+            <div class="Contact User">
+                <div id="Contact">
+                <h4>Tell Us About Your Event</h4>
+                <form action="#" method="post">
+            
+                  <input placeholder="First Name" id="firstName" name="firstName" required>
+                  <br>
+                  <input placeholder="Last Name" id="lastName" name="lastName" required>
+             <hr>
+                  <label for="event">Event Date</label>
+            <br>
+                  <select id="birthday" name="birthday" required>
+                    <option value="" disabled selected>Month</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                  
+                  </select>
+        
+                    <select id="day" name="day" required>
+                    <option value="" disabled selected>Day</option>
+                    <option value="1">1</option>";
+                    <option value="2">2</option>";
+                    <option value="3">3</option>";
+                  </select>
+        
+                  <br>
+                
+                  <select id="year" name="year" required>
+                    <option value="" disabled selected>Year</option>
+                
+                    <option value="2000">2000</option>";
+                    <option value="2001">2001</option>";
+                    <option value="2002">2002</option>";
+                    <option value="2003">2003</option>";
+                    <option value="2004">2004</option>";
+                    <option value="2005">2005</option>";
+                  </select>
+                  <button  type="submit">Register</button>
+                </form>
+            </div>
 </body>
 </html>
